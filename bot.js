@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!help') {
-    	message.reply('Hi! Thanks for using CSRP! Commands are simple once you get the hang of it!');
+    	message.reply('Hi! Thanks for using CSRP! Commands are simple once you get the hang of it! \n "!veh" shows you the list of police vehicles.');
   	}
 });
 
