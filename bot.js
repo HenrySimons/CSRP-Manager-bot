@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!veh') {
-    	message.reply(':large_blue_diamond: Police Vehicles :large_blue_diamond:');
+    	message.reply(':large_blue_diamond: Police Vehicles :large_blue_diamond: \n police    =    Ford Crown Victoria              | 7 Liveries');
   	}
 });
 
